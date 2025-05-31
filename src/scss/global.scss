@@ -41,7 +41,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: $color3;
 }
 
@@ -60,9 +60,36 @@ h4 {
 
 p {
   font-size: 14px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 
   &.txt-large {
     font-size: 1.75rem;
   }
+}
+
+.input-email {
+  background: white !important;
+  color: black !important;
+}
+
+.form__entry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+
+.entry__label {
+  color: white !important;
+}
+#sib-form-container {
+  margin: auto !important;
+  text-align: center;
 }
