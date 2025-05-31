@@ -1,0 +1,41 @@
+.smartphone-container {
+  position: relative;
+  z-index: 999;
+  height: 100%;
+  // position: fixed;
+  // top: 50%;
+  // left: 50%;
+  // transform: translate(-50%, -50%);
+
+  .smartphone {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    aspect-ratio: 9 / 18;
+    // height: 80vh;
+    height: 90%;
+    max-width: 90vw;
+    background: url('/imgs/smartphone.png') no-repeat;
+    background-size: 100% 100%;
+  }
+  .screen {
+    position: absolute;
+    z-index: 1;
+    width: 94%;
+    left: 3%;
+    height: 88%;
+    top: 1%;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    overflow: hidden;
+
+    img {
+      position: absolute;
+      top: 0;
+      width: 90%;
+    }
+  }
+}

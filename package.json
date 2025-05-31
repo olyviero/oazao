@@ -1,0 +1,20 @@
+{
+  "name": "oazao-landingpage",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sass": "^1.77.2",
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "@splidejs/splide": "^4.1.4",
+    "gsap": "^3.12.5",
+    "splitting": "^1.0.6"
+  }
+}

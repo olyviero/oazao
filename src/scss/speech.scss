@@ -1,0 +1,31 @@
+.speech-container {
+  position: absolute;
+  z-index: 99;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  text-shadow: 1px 1px 0 black, 1px -1px 0 black, -1px 1px 0 black, -1px -1px 0 black, 1px 0px 0 black, 0px 1px 0 black,
+    -1px 0px 0 black, 0px -1px 0 black;
+  width: 900px;
+  max-width: 90vw;
+  left: 50%;
+  top: 50%;
+
+  // pointer-events: none;
+
+  .speech {
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+@media (max-width: $mobile) {
+  .speech-container {
+    .speech {
+      font-size: 18px;
+    }
+  }
+}

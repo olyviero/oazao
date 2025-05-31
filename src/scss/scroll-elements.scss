@@ -1,0 +1,41 @@
+.uno-effect {
+  position: fixed;
+  z-index: 50;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+  background: black;
+  color: white;
+  background: white;
+  color: black;
+  border: 4px solid $color4;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  width: 140px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // border-radius: 50%;
+  // border: 1px solid yellow;
+  border-radius: 0.5rem;
+  // pointer-events: none;
+
+  &.bigger {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: $mobile) {
+  .uno-effect {
+    width: 110px;
+    height: 110px;
+    font-size: 0.5rem;
+    padding: 0;
+    max-width: 70px;
+
+    &.bigger {
+      font-size: 1.5rem;
+    }
+  }
+}

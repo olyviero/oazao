@@ -1,0 +1,95 @@
+button {
+  position: relative;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Carter One', cursive;
+  pointer-events: auto !important;
+  cursor: pointer !important;
+
+  &:hover {
+    cursor: pointer; // TODO : not working, why ??
+  }
+
+  &:disabled {
+    opacity: 0.3;
+    cursor: auto;
+  }
+}
+
+// Colors
+.txt-color-0 {
+  color: $color0 !important;
+}
+.txt-color-1 {
+  color: $color1 !important;
+}
+.txt-color-2 {
+  color: $color2 !important;
+}
+.txt-color-3 {
+  color: $color3 !important;
+}
+.txt-color-4 {
+  color: $color4 !important;
+}
+.txt-color-5 {
+  color: $color5 !important;
+}
+.txt-color-6 {
+  color: $color6 !important;
+}
+.txt-color-7 {
+  color: $color7 !important;
+}
+.txt-color-8 {
+  color: $color8 !important;
+}
+.txt-color-9 {
+  color: $color9 !important;
+}
+
+// Foont Sizes
+.txt-small {
+  font-size: 1.2rem !important;
+}
+.txt-big {
+  font-size: 3rem !important;
+}
+
+// Background
+.bg-color-0 {
+  background: #101010;
+}
+.bg-color-1 {
+  background: #d22a2c;
+}
+.bg-color-2 {
+  background: #f5763f;
+}
+.bg-color-3 {
+  background: #f0d15d;
+}
+.bg-color-4 {
+  background: #89ab54;
+}
+.bg-color-5 {
+  background: #67c1d8;
+}
+.bg-color-6 {
+  background: #1977aa;
+}
+.bg-color-7 {
+  background: #523c7c;
+}
+.bg-color-8 {
+  background: #ee5e8a;
+}
+.bg-color-9 {
+  background: #f5f6f7;
+  color: black;
+}
