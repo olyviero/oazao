@@ -1,21 +1,13 @@
-# TODO
+# 🃏 Jeu de Cartes Interactif
 
-- CHOOSE YOUR THEME : While loading + enhance experience
-- prefered color => btn colors, full color exemple
-- prefered sexe => 10 couleurs
+Une landing page immersive et un jeu de cartes original, développé en **TypeScript**, **ScrollTrigger** et **GSAP** pour des animations fluides à la Apple.
 
-- Lang selection, say only fr for words now
+## 🚀 Fonctionnalités
 
-- Back color : light or dark to check preferences
+- 🎨 160 cartes interactives
+- 💻 Landing page responsive avec effets de scroll fluides
+- ⚡️ Animations dynamiques et transitions soignées
 
-# Time spent on project
+## 🌟 Stack technique
 
-- 40h
-
-# Questions
-
-- contour noir aux cartes ou illustration collé bord ou contour coloré
-
-# QCM
-
-- design : qu'en pensez-vous ? pas focus sur préférences ici, juste sur lisibilité, optimisaion, ...
+- GSAP / ScrollTrigger
